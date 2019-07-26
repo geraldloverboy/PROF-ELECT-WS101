@@ -25,10 +25,10 @@
 
 
 		}
-		li{
+		ul li{
 			list-style: none;
 		}
-		li a{
+		ul li a{
 			margin: 8px 8px 8px 8px;
 			width: 400px;
 			height: 100px;
@@ -49,12 +49,14 @@
 	<div class="a">
 		
 		<div class="b">
-			<li class="c">
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="login.html">Login</a>
-				<a href="gallery.html">Gallery</a>
-			</li>
+			<ul>
+					<li class="c">
+							<a href="index.html">Home</a>
+							<a href="about.html">About</a>
+							<a href="login.html">Login</a>
+							<a href="bulb.html">Bulb</a>
+						</li>
+			</ul>
 			<div class="d">
 				
 				<marquee>Hello Thank You! For Visiting my Account Please Follow Me at Github.io</marquee>
@@ -73,6 +75,21 @@
 			</pre>
 			<marquee>wooooooooooooowwwwwwwwwwwwwwwww Amazing !!!!!!!</marquee>
 
+		<div id="time">
+
+				<button type="button"
+				onclick="document.getElementById('demo').innerHTML = Date()">
+				Click me to display Date and Time.</button>
+
+				<p id="demo"></p>
+				<p id="hello"></p>
+			<script type="css">
+					document.getElementById("hello").innerHTML = "Hello JavaScript!";
+			</script>
+
+			<!-- <button type="button" onclick="document.getElementById("hello").innerHTML = String()" >Hello</button> -->
+				
+		</div>
 		</div>
 
 	</div>
