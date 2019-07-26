@@ -1,4 +1,3 @@
-<script>
 function light(sw) {
   var pic;
   if (sw == 0) {
@@ -8,4 +7,3 @@ function light(sw) {
   }
   document.getElementById('myImage').src = pic;
 }
-</script>
