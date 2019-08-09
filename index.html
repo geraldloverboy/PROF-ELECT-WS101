@@ -5,119 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="Assets/css/design.css">
-    <link rel="icon" type="icon" href="Assets/img/letter-g-latin-key-512.png">
+    <link rel="stylesheet" type="text/css" href="Asset/css/material.css">
+    <link rel="stylesheet" type="text/css" href="Asset/css/bb.css">
+
+    <link rel="icon" type="icon" href="Asset/img/letter-g-latin-key-512.png">
 
 </head>
 <body>
     <div class="container" id="e2">
-
-        <div class="head" id="header-fixed">
-
-
+        <nav>
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                        <a href="login.html" class="dropbtn">Login</a>
+                        <div class="dropdown-content">
+                          <a href="#">Register</a>
+                          <a href="#">Sign In</a>
+                        </div>
+    </li>
+                <li><a href="Blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
-
-        <div class="ul-container"  id="ul1" style="border-radius: 50px;">
-            <div class="image-left" accesskey="">
-                <img src="Assets/img/letter-g-latin-key-512.png" alt="letter-g-latin-key-512" style="border-radius: 50px; width: 50px; height: 50px;" >
-            </div>
-            <ul id="right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-            </ul>
-
-        </div>
-
-        <div class="slideshow-container">
-
-            <div class="SlideShow fade">
-              <div class="numbertext">1</div>
-              <img src="Assets/img/a1.jpeg" style="width:100%;">
-              <div class="text">Nature 1</div>
-            </div>
-            
-            <div class="SlideShow fade">
-              <div class="numbertext">2</div>
-              <img src="Assets/img/a3.jpeg" style="width:100%">
-              <div class="text">Nature 2</div>
-          
-            </div>
-
-            <div class="SlideShow fade">
-              <div class="numbertext">2</div>
-              <img src="Assets/img/a2.jpeg" style="width:100%">
-              <div class="text">Nature 2</div>
-          
-            </div>
-            
-            <div class="SlideShow fade">
-              <div class="numbertext">2</div>
-              <img src="Assets/img/a5.jpeg" style="width:100%">
-              <div class="text">Nature 2</div>
-          
-            </div>
-
-            
-            <div class="SlideShow fade">
-              <div class="numbertext">3</div>
-              <img src="Assets/img/a4.jpeg" style="width:100%">
-              <div class="text">Nature 3</div>
-              
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-           
-              <!-- <source src="js/slideshow.js" type=""> -->
-            </div>
-            <script src="Assets/js/slideshow.js"></script>
-            <div class="modal-contain">
-
-               <canvas id="clock" width="300" height="300">
-                   TimeSlamp
-               </canvas>
-            </div>
                  
-            <div class="gallery">
-
-              <h1>Hello my Friends This My First Time to Create a Platform Site</h1>
-              <div class="gallery-context">
-
-                <div class="gallery-left-container">
-                  <img src="Assets/img/b0.jpeg" alt="">
-                  <img src="Assets/img/b1.jpeg" alt="">
-                  <img src="Assets/img/a2.jpeg" alt="">
-                  <img src="Assets/img/a3.jpeg" alt="">
-                  <img src="Assets/img/a4.jpeg" alt="">
-                  <img src="Assets/img/a5.jpeg" alt="">
-                  <img src="Assets/img/a6.jpeg" alt="">
-                  <img src="Assets/img/a7.jpeg" alt="">
-                  <img src="Assets/img/a8.jpeg" alt="">
-                  <img src="Assets/img/a9.jpeg" alt="">
-  
-
+          <nav>
+            <div class="nav-search">
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" required placeholder="Search">
+                  <label class="label-icon" for="search"><i class="material-icons"></i></label>
+                  
                 </div>
-               
-
-              </div>
-
+              </form>
             </div>
-    
-        </div>
+          </nav>
 
+          <div class="side-left float">
+            <nav>
+              <div class="main-side">
+                <div class="main-left">
+                  <h1>float left</h1>
+                  <button class="accordion">Section 1</button>
+<div class="panel">
+  <p>lahat ng nagmamahal may dahilan kung bakit tau nasasaktan kasi sa lahat ng bagay sa mundo isa lang ang tunay na nagmamahal sa atin walang iba kung ang panginoon lamang.
+    kaya kung ikaw ay nasaktan at puso mo ay nasugatan isa lang ang lunas panalangin ng buong puso at pagtitiwala sa kanya!
+  </p>
+</div>
 
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>listen to all boys and girls kung kau ay may minamahal wag ninyo paglaruan kasi sa mundo ito binuhay tao para dumami.</p>
+</div>
 
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>maraming mga temptation sa mundo pero ikaw mismo ang naghawak sa sarili mo kung magpapadala ka sa mga temptation na tao nasa sayo na yan.</p>
+</div>
+<button class="accordion">Section 4</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
+<button class="accordion">Section 5</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
+<button class="accordion">Section 6</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+                   
+                </div>
+                 
+                  <div class="main-right">
+                      <h1>float right</h1>
+                      <button class="accordion">Section 1</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      
+                      <button class="accordion">Section 2</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      
+                      <button class="accordion">Section 3</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                     
+                      <button class="accordion">Section 4</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      
+                      <button class="accordion">Section 5</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      
+                      <button class="accordion">Section 6</button>
+                      <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      
+                     
+                    </div> 
+                    </div>
+              </div>
+            </nav>
+          
+          </div>
+
+          <div class="container">
+            <img src="Asset/img/samplebg.jpg" alt="gerald" class="image" width="100%">
+            <div class="overlay-contain">
+              <div class="text">Hello I'm Gerald R. Carilimdiliman</div>
+            </div>
+          </div>
     </div>
-</body>
+
+    <script src="Asset/js/function.js"></script>
+  </body>
 </html>

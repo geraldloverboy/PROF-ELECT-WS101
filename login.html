@@ -5,62 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="Assets/css/design.css">
-    <link rel="icon" type="icon" href="Assets/img/letter-g-latin-key-512.png">
+    <link rel="stylesheet" type="text/css" href="Asset/css/material.css">
+    <link rel="icon" type="icon" href="Asset/img/letter-g-latin-key-512.png">
     
 </head>
 <body>
     <div class="main-container">
 
-        <div class="ul-container"  >
-            <div class="right">
-                    <img src="Assets/img/letter-g-latin-key-512.png" alt="letter-g-latin-key-512" style="border-radius: 50px; width: 50px; height: 50px;" ><span></span>
-            </div>
-            <ul class="ul-right">
-                <!-- <li><a href=""></a></li> -->
+        <nav>
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-
-            </ul>
-
-        </div>
-
-        <div id="form1">
-            <div >
-                <nav class="head-contain">
-
-                </nav>
-            </div>
-           <div class="inside">
-
-                <form action="dashboard.html" method="" accept="html">
-                        <div class="img">
-                         <img src="Assets/img/admin.jfif" alt="admin" >
+                <li class="dropdown">
+                        <a href="login.html" class="dropbtn">Login</a>
+                        <div class="dropdown-content">
+                          <a href="#">Register</a>
+                          <a href="#">Sign In</a>
                         </div>
-						<h1>Entrys</h1>
-                       <div class="balance">
-                            <label for="string">Username:
-                                    <input type="email" name="text" id="use1" placeholder="Enter your Email" required>
-                                </label>
-                       </div>
-                       <div class="balance">
-                           <label for="pass">Password: 
-                               <input type="password" name="pass" placeholder="Enter your Password" required id="pass2">
-                           </label>
-                           <br>
-                           <!-- <button type="button" >Login</button> -->
-                           <button type="submit" formaction="">Login</button>
-                           <!-- <br> -->
-                           <button type="reset">Clear</button>
-                       </div>
+                </li>
+                <li><a href="Blog.html">Blog</a></li>
+                
+              </ul>
+             
+            </div>
+          </nav>
         
-                    </form>
-           </div>
-        </div>
-
-
+          <div class="nav-form">
+              <div class="bg-img">
+                  <form action="login.html" class="container">
+                    <h1>Login</h1>
+                      <div class="lg-img">
+                      <img src="Asset/img/icon/admin.jfif" alt="">  
+                      </div>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn">Login</button>
+                  </form>
+                </div>
+          </div>
 
     </div>
+    <script src="Asset/js/function.jss"></script>
 </body>
 </html>
